@@ -1,0 +1,39 @@
+#header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+#header h1 {
+    margin: 0 0 0 30px;
+    font-size: 30px;
+}
+
+#header .welcome {
+    font-size: 20px;
+}
+.navbar {
+    background-color: #a1e3a2;
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    border-right: 0.5px white solid;
+}
+
+.navbar a:hover {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+}
