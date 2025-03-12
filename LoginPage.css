@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image: url("/126917577_p0_master1200.jpg");
+    background-image: url("background.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -136,9 +136,9 @@ button:hover{
     margin: 0 20px 20px 20px;
 }
 #saying {
-     font-size: 1rem;
-     font-style: italic;
-    color: white;
-    text-shadow: #000 1px 0 0, #000 0 1px 0, #000 -1px 0 0, #000 0 -1px 0;
+    font-size: 1rem;
+    /*font-style: italic;*/
+    color: black;
+    /*text-shadow: #000 1px 0 0, #000 0 1px 0, #000 -1px 0 0, #000 0 -1px 0;*/
     margin: 0 0 50px;
  }
