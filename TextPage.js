@@ -1,4 +1,4 @@
-window.onload = function () {
+window.addEventListener('load', function () {
     const xhr = new XMLHttpRequest();
     xhr.open('GET', '/getUsername', true);
     xhr.onreadystatechange = function () {
@@ -26,10 +26,10 @@ window.onload = function () {
         content.innerHTML = '';
         switch (target) {
             case 'insert':
-                window.location=("A.insert.html")
+                window.location = ("A.insert.html")
                 break;
             case 'update':
-                content.innerHTML = '<h2>修改记录</h2>';
+                window.location = ("B.update.html")
                 break;
             case 'delete':
                 content.innerHTML = '<h2>删除记录</h2>';
@@ -44,4 +44,4 @@ window.onload = function () {
                 content.innerHTML = '<p>无效的操作</p>';
         }
     }
-}
+})

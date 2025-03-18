@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<link rel = "stylesheet" type = "text/css" href = "TextPage.css">
+	<meta charset = "UTF-8">
+	<title>主页</title>
+</head>
+<body>
+<div id = "header">
+	<h1>学生管理系统</h1>
+	<div class = "welcome" id = "welcome"></div>
+</div>
+<div class = "navbar">
+	<a href = "#insert">A：插入一个新的（学生）记录</a>
+	<a href = "#update">B：修改一个记录</a>
+	<a href = "#delete">C：删除一个记录</a>
+	<a href = "#view">D：浏览所有信息</a>
+	<a href = "#search">E：查找考试成绩不及格的记录</a>
+</div>
+<div id = "content">
+<h2>修改一个记录</h2>
+<!--
+依照序号查询记录
+找到->展出记录->修改
+未找到->提示未找到
+-->
+	<label for = "index">查询编号</label>
+	<input type = "number" id = "index" name = "index">
+	<button id="submit">提交</button>
+</div>
+<div id="condition">
+
+</div>
+<div id = "IPv4Address">
+
+</div>
+
+</body>
+<script src = "TextPage.js"></script>
+<script src = "B.update.js"></script>
+</html>
